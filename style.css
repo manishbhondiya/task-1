@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #444;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.about-section {
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+}
+
+.about-section img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-content button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
